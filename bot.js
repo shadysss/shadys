@@ -31,27 +31,28 @@ client.on('ready', () => {
 
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '423934297376817172').setName("༺");  
-client.channels.find('id', '423934297376817172').setName("༺W");
-client.channels.find('id', '423934297376817172').setName("༺We");
-client.channels.find('id', '423934297376817172').setName("༺Wel");
-client.channels.find('id', '423934297376817172').setName("༺Welc");
-client.channels.find('id', '423934297376817172').setName("༺Welco");
-client.channels.find('id', '423934297376817172').setName("༺Welcom");
-client.channels.find('id', '423934297376817172').setName("༺Welcome");  
-client.channels.find('id', '423934297376817172').setName("༺Welcome T");
-client.channels.find('id', '423934297376817172').setName("༺Welcome To");
-client.channels.find('id', '423934297376817172').setName("༺Welcome To F");
-client.channels.find('id', '423934297376817172').setName("༺Welcome To FI");
-client.channels.find('id', '423934297376817172').setName("༺Welcome To FIN");
-client.channels.find('id', '423934297376817172').setName("༺Welcome To FINE");
-client.channels.find('id', '423934297376817172').setName("༺Welcome To FINEX");
-client.channels.find('id', '423934297376817172').setName("༺Welcome To FINEX༻");
-client.channels.find('id', '423934297376817172').setName("༺Welcome To FINEX༻🌹");
-client.channels.find('id', '423934297376817172').setName("༺Welcome To FINEX༻🌹");
-client.channels.find('id', '423934297376817172').setName("༺Welcome To FINEX༻🌹");  
+client.channels.find('id', '491346280753266689').setName("༺");
+client.channels.find('id', '491346280753266689').setName("༺W");
+client.channels.find('id', '491346280753266689').setName("༺We");
+client.channels.find('id', '491346280753266689').setName("༺Wel");
+client.channels.find('id', '491346280753266689').setName("༺Welc");
+client.channels.find('id', '491346280753266689').setName("༺Welco");
+client.channels.find('id', '491346280753266689').setName("༺Welcom");
+client.channels.find('id', '491346280753266689').setName("༺Welcome");
+client.channels.find('id', '491346280753266689').setName("༺Welcome T");
+client.channels.find('id', '491346280753266689').setName("༺Welcome To");
+client.channels.find('id', '491346280753266689').setName("༺Welcome To E");
+client.channels.find('id', '491346280753266689').setName("༺Welcome To EG");
+client.channels.find('id', '491346280753266689').setName("༺Welcome To EGY");
+client.channels.find('id', '491346280753266689').setName("༺Welcome To EGYP");
+client.channels.find('id', '491346280753266689').setName("༺Welcome To EGYPT");
+client.channels.find('id', '491346280753266689').setName("༺Welcome To EGYPT༻");
+client.channels.find('id', '491346280753266689').setName("༺Welcome To EGYPT༻🌹");
+client.channels.find('id', '491346280753266689').setName("༺Welcome To EGYPT༻🌹");
+client.channels.find('id', '491346280753266689').setName("༺Welcome To EGYPT༻🌹");
   }, 3000);
 });
+
 
 
 
@@ -135,33 +136,32 @@ var ss = 0;
 client.on('voiceStateUpdate', (o,n) => {
     if (o.voiceChannel && !n.voiceChannel) {
         ss-=1
-        n.guild.channels.get("423857340173910020").edit({
-            name : "FINEX VOICE : " + ss+ ""
+        n.guild.channels.get("490691479946264590").edit({
+            name : "VOICE ONLINE: : " + ss+ ""
         })
     };
     if (n.voiceChannel && !o.voiceChannel) {
         ss+=1
-        n.guild.channels.get("423857340173910020").edit({
-            name : "FINEX VOICE : " + ss+ ""
+        n.guild.channels.get("490691479946264590").edit({
+            name : "VOICE ONLINE: : " + ss+ ""
         })
     }
 })
 client.on("ready", () => {
-    client.guilds.get("423857340173910017").members.forEach(m => {
+    client.guilds.get("490691479946264590").members.forEach(m => {
         if (m.voiceChannel) {
             ss+=1
         };
-        client.channels.get("423857340173910020").edit({
-            name : "FINEX VOICE : " + ss+ ""
+        client.channels.get("490691479946264590").edit({
+            name : "VOICE ONLINE: : " + ss+ ""
         })
     });
 });
  
 
-
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' WELCOME ','FINEX SERVER | FX ','BY : بايثور ','HAY [=',' Hi (='];
+    var setGame = [' WELCOME ','EGYPT | EGYPT ','BY :شادي  ','HAY [=',' Hi (='];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -172,10 +172,11 @@ client.on('ready', function(){
             j = -1;
         }
         i = i+j;
-        client.user.setGame(setGame[i],`https://www.twitch.tv/pythorxxx`);
+        client.user.setGame(setGame[i],https://www.twitch.tv/pythorxxx);
     }, ms);
 
 })
+
 
 
 
