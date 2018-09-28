@@ -1,0 +1,6 @@
+token=باث
+owner=326099411853901824
+prefix=1
+game=Type 1play
+stayinchannel=true
+songinstatus=true
